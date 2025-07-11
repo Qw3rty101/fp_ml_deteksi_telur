@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['bukan telur', 'telur']
+
+roboflow:
+  workspace: deteksi-telur-quwbb
+  project: my-first-project-nml8j
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deteksi-telur-quwbb/my-first-project-nml8j/dataset/4
